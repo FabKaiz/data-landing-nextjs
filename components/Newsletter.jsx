@@ -1,4 +1,5 @@
-import React from 'react'
+import styles from '../styles/Newsletter.module.scss'
+
 
 const Newsletter = () => {
   return (

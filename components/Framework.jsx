@@ -1,4 +1,5 @@
-import React from 'react'
+import styles from '../styles/Framework.module.scss'
+
 
 const Framework = () => {
   return (
