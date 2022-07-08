@@ -23,9 +23,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
-      <Header />
-      <Features />
+      <div className={styles.bgGradient}>
+        <Navbar />
+        <Header />
+        <Features />
+      </div>
       <Traffic />
       <Framework />
       <Business />
