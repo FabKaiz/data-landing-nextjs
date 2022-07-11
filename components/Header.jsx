@@ -9,6 +9,7 @@ import sponsor3 from '../public/assets/headerSponsor3.svg'
 import sponsor4 from '../public/assets/headerSponsor4.svg'
 import sponsor5 from '../public/assets/headerSponsor5.svg'
 import sponsor6 from '../public/assets/headerSponsor6.svg'
+import Features from './Features'
 
 const Header = () => {
   return (
@@ -45,16 +46,20 @@ const Header = () => {
           <Image src={headerImg} alt="running logo" />
         </div>
       </div>
-      <div className={styles.headerSponsor}>
-        <div>
-          <Image src={sponsor1} alt="sponsor" />
-          <Image src={sponsor2} alt="sponsor" />
-          <Image src={sponsor3} alt="sponsor" />
-          <Image src={sponsor4} alt="sponsor" />
-          <Image src={sponsor5} alt="sponsor" />
-          <Image src={sponsor6} alt="sponsor" />
+      <div className={styles.featuresBg}>
+        <div className={styles.headerSponsor}>
+          <div>
+            <Image src={sponsor1} alt="sponsor" />
+            <Image src={sponsor2} alt="sponsor" />
+            <Image src={sponsor3} alt="sponsor" />
+            <Image src={sponsor4} alt="sponsor" />
+            <Image src={sponsor5} alt="sponsor" />
+            <Image src={sponsor6} alt="sponsor" />
+          </div>
         </div>
+        <Features />
       </div>
+
     </header>
   )
 }
