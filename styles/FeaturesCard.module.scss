@@ -1,0 +1,22 @@
+.featuresCardContainer {
+  display: flex;
+
+  .txt {
+    margin-left: 28px;
+    h3 {
+      margin: 0;
+      font-size: 18px;
+      line-height: 22px;
+      color: #99efd0;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 22px;
+      color: #8476aa;
+      max-width: 247px;
+      text-align: left;
+      margin-top: 10px;
+    }
+  }
+}
