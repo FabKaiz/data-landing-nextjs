@@ -59,7 +59,6 @@ const Header = () => {
         </div>
         <Features />
       </div>
-
     </header>
   )
 }
