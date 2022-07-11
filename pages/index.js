@@ -26,7 +26,6 @@ export default function Home() {
       <div className={styles.bgGradient}>
         <Navbar />
         <Header />
-        <Features />
       </div>
       <Traffic />
       <Framework />
