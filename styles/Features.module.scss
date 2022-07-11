@@ -13,7 +13,7 @@
     margin-bottom: 13px;
   }
 
-  p {
+  .desc {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -29,5 +29,32 @@
     justify-content: center;
     gap: 2rem;
     grid-template-columns: repeat(3, 299px);
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .features {
+    .featuresContainer {
+      grid-template-columns: repeat(2, 299px);
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .features {
+    h2 {
+      font-size: 32px;
+      line-height: 50px;
+    }
+    .desc {
+      font-size: 14px;
+      line-height: 20px;
+      padding: 0 40px;
+    }
+    .featuresContainer {
+      grid-template-columns: repeat(1, 299px);
+      gap: 1rem;
+    }
   }
 }

@@ -20,3 +20,20 @@
     }
   }
 }
+
+@media screen and (max-width: 720px) {
+  .featuresCardContainer {
+    .txt {
+      margin-left: 22px;
+
+      h3 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 13px;
+        line-height: 18px;
+      }
+    }
+  }
+}
