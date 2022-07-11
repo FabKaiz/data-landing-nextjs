@@ -12,7 +12,7 @@ const Features = () => {
   return (
     <main className={styles.features}>
       <h2>Your choice</h2>
-      <p>
+      <p className={styles.desc}>
         There are many reasons to get down and start to get depressed about your
         situation.
       </p>
