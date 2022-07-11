@@ -40,6 +40,12 @@ button {
   padding: 8px 28px;
   border: 1px solid #f2994a;
   cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    opacity: 0.9;
+    box-shadow: -1.09px 1.13px 36.6483px rgba(241, 131, 35, 0.274);
+  }
 }
 
 .btnTransparent {
@@ -50,6 +56,5 @@ button {
 .btnFull {
   color: #ffffff;
   background: #f2994a;
-  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
   border-radius: 3px;
 }
