@@ -14,6 +14,7 @@ const Traffic = () => {
             We are committed to processing the information in order to contact
             you and talk about your project.
           </p>
+          <button className="btnFull">Learn More</button>
         </div>
         <div className={styles.right}>
           <Image src={mettricImg} alt="mettric" />
@@ -23,8 +24,8 @@ const Traffic = () => {
       <div className={styles.bottom}>
         <div className={styles.desc}>
           <h2>
-            3 Simple Ways To <span className="orange">Save</span> A Bunch Of{' '}
-            <span className="orange">Money</span> When Buying A New Computer
+            3 Simple Ways To <span className="orangeTxt">Save</span> A Bunch Of{' '}
+            <span className="orangeTxt">Money</span> When Buying A New Computer
           </h2>
           <p>
             Fully customizable and neatly organized components will help you
