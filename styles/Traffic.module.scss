@@ -1,0 +1,108 @@
+.trafficBg {
+  background-image: url('/assets/traficBg.png');
+  background-repeat: no-repeat;
+  background-position: left 80%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  .top {
+    display: flex;
+
+    .left {
+      max-width: 470px;
+      margin-right: 45px;
+
+      h2 {
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 50px;
+        color: #99efd0;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+        color: #8476aa;
+        margin-top: 32px;
+        margin-bottom: 43px;
+      }
+    }
+  }
+
+  .bottom {
+    .desc {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h2 {
+        max-width: 860px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.33px;
+        color: #99efd0;
+        margin: 0;
+        margin-top: 190px;
+      }
+
+      p {
+        margin: 0;
+        max-width: 395px;
+        font-family: 'Questrial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #8476aa;
+        margin-top: 32px;
+        margin-bottom: 43px;
+      }
+    }
+
+    .mettricContainer {
+      display: flex;
+      div {
+        max-width: 291px;
+        margin-right: 130px;
+
+        &:last-child {
+          margin: 0;
+        }
+      }
+      h3 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.33px;
+        color: #99efd0;
+        margin: 0;
+        margin-bottom: 16px;
+      }
+
+      p {
+        font-family: 'Questrial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #8476aa;
+      }
+    }
+  }
+}
