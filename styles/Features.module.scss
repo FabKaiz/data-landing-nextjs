@@ -30,6 +30,8 @@
     gap: 2rem;
     grid-template-columns: repeat(3, 299px);
     flex-wrap: wrap;
+    position: relative;
+    z-index: 9;
   }
 }
 
