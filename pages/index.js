@@ -3,7 +3,6 @@ import styles from '../styles/Home.module.scss'
 
 import Navbar from '../components/Navbar'
 import Header from '../components/Header'
-import Features from '../components/Features'
 import Traffic from '../components/Traffic'
 import Framework from '../components/Framework'
 import Business from '../components/Business'
